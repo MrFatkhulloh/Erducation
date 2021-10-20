@@ -12,9 +12,9 @@ body {
 }
 
 .container {
-    max-width: 1400px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 1540px;
+    padding-left: 150px;
+    padding-right: 150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,4 +38,8 @@ h2,h3,h4 {
     overflow: hidden;
     border: none;
     clip: rect(0 0 0 0);
+}
+
+img {
+    vertical-align: middle;
 }

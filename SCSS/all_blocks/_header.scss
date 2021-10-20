@@ -1,0 +1,70 @@
+.header {
+    padding: 55px 0;
+
+    &__container {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__img-wrapper {
+        position: relative;
+
+        &::before {
+            content: "- ducation";
+            position: absolute;
+            top: -2px;
+            left: calc(100% + 9.43px);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: $black;
+            width: 140px;
+            
+        }
+    }
+
+    &__nav {
+        &__list {
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+        }
+
+        &__item {
+            margin: 0 84px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+    }
+
+    &__btn-wrapper {
+
+        a {
+            position: relative;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: #fff;
+            padding: 28px 74px 27px 43px;
+            background: linear-gradient(180deg, #C2B8FF 0%, #8A78F0 100%);
+            border-radius: 39.5px;
+            box-shadow: 0 15px 30px #C2B8FF;
+
+            &:active {
+                box-shadow: 0 10px 20px #C2B8FF;
+            }
+
+            &::before {
+                content: url(./../../images/header/Login.svg);
+                position: absolute;
+                top: 38%;
+                right: 25%;
+            }
+        }
+    }
+}
